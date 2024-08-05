@@ -2,10 +2,10 @@ from fontTools import subset
 from fontTools.ttLib import TTFont
 
 # Path to your original .ttf font file
-ttf_path = "hwmct.ttf"
+ttf_path = "lxgwwk.ttf"
 
 # Path to save the streamlined .ttf font file
-subset_ttf_path = "mini-hwmct.ttf"
+subset_ttf_path = "mini-" + ttf_path
 
 # List of characters you want to keep in the font
 with open("scripts/3500chars.txt", 'r') as file:
