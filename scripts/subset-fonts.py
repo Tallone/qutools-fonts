@@ -2,7 +2,7 @@ from fontTools import subset
 from fontTools.ttLib import TTFont
 
 # Path to your original .ttf font file
-ttf_path = "lxgwwk.ttf"
+ttf_path = "albbpht.ttf"
 
 # Path to save the streamlined .ttf font file
 subset_ttf_path = "mini-" + ttf_path
